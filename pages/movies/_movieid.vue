@@ -19,7 +19,7 @@
           class="h-60 md:h-full object-cover rounded-lg"
         />
         <div>
-          <h1 class="text-2xl font-bold">{{ movie.title }}</h1>
+          <h1 class="text-2xl font-bold mt-5 md:mt-0">{{ movie.title }}</h1>
           <p class="text-gray-400 text-sm mb-2">{{ movie.tagline }}</p>
           <div class="text-xs text-gray-500 mb-5">
             <span class="text-gray-400 font-medium">Released:</span>
