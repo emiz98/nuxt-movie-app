@@ -51,4 +51,12 @@ export default {
       },
     },
   },
+  rules: {
+    'vue/multi-word-component-names': [
+      'error',
+      {
+        ignores: ['default', 'home'],
+      },
+    ],
+  },
 }
