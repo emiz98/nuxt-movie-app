@@ -52,7 +52,7 @@
 
 <script>
 import axios from 'axios'
-const apiKey = process.env.TMDB_API_KEY
+const apiKey = '2d993593c6f4bc11d6feb87b34548c0b'
 export default {
   name: 'single-movie',
   data() {
