@@ -52,6 +52,7 @@
 
 <script>
 import axios from 'axios'
+const apiKey = process.env.TMDB_API_KEY
 export default {
   name: 'single-movie',
   data() {
@@ -71,7 +72,7 @@ export default {
   methods: {
     async getSingleMovie() {
       const data = axios.get(
-        `https://api.themoviedb.org/3/movie/${this.$route.params.movieid}?api_key=${process.env.TMDB_API_KEY}&language=en-US`
+        `https://api.themoviedb.org/3/movie/${this.$route.params.movieid}?api_key=${apiKey}&language=en-US`
       )
       const result = await data
       this.movie = result.data

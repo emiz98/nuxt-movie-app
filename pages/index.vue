@@ -127,7 +127,7 @@
 
 <script>
 import axios from 'axios'
-
+const apiKey = process.env.TMDB_API_KEY
 export default {
   data() {
     return {
@@ -164,7 +164,7 @@ export default {
   methods: {
     async getMovies() {
       const data = axios.get(
-        `https://api.themoviedb.org/3/discover/movie?api_key=${process.env.TMDB_API_KEY}&with_genres=878`
+        `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&with_genres=878`
       )
       const result = await data
       result.data.results.forEach((movie) => {
@@ -173,7 +173,7 @@ export default {
     },
     async getSearchedMovies() {
       const data = axios.get(
-        `https://api.themoviedb.org/3/search/movie?api_key=${process.env.TMDB_API_KEY}&language=en-US&page=1&query=${this.searchInput}`
+        `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&language=en-US&page=1&query=${this.searchInput}`
       )
       const result = await data
       result.data.results.forEach((movie) => {
