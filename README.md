@@ -1,6 +1,27 @@
-# nuxt-movie-app
+# Nuxt Movie App
 
-## Build Setup
+![cover](cover.png)
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Build Process](#build-process)
+- [Tech Stack](#tech-stack)
+
+<br/>
+
+## Introduction
+
+![main image](https://cdn.sanity.io/images/1z5g6za5/production/f835e07e476f03e47b3729d399663807e5ed1e28-1901x1032.png?w=2000&fit=max&auto=format)
+
+A simple movie app powered by TMDB api. This app was build for learning Nuxt framework.
+
+## Features
+
+🚀 Search Movies
+
+## Build Process
 
 ```bash
 # install dependencies
@@ -17,52 +38,12 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
-## Special Directories
+## Tech Stack
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+<p float="left">
+    <img src="https://cdn.sanity.io/images/1z5g6za5/production/0a3cb36ac012f60c90f47f40da5a6cddb922b395-64x64.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+    <img src="https://cdn.sanity.io/images/1z5g6za5/production/e4fb6028c12d4244b3e800be60c9a61934b7e825-64x64.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+    <img src="https://cdn.sanity.io/images/1z5g6za5/production/92d3ee2bb773e34bf8002b16d198706ac2bf431d-128x128.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+    <img src="https://cdn.sanity.io/images/1z5g6za5/production/97986d3dd7e897b83e06a41aaf9ee7a8de146685-768x768.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+</p>
